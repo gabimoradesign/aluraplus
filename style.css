@@ -165,7 +165,7 @@ body {
     color: var(--cor-de-fundo)
 }
 
-@media (max-width: 1400px) {
+@media screen and (max-width: 768px) {
     .responsivo {
         display: flex;
         flex-direction: column;
@@ -173,7 +173,7 @@ body {
         text-align: center;
         width: auto;
         background-image: none;
-        margin: 0 2em 0 2em;
+        margin: 0
     }
 
  .espaco {
