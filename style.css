@@ -171,9 +171,9 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        background-image: none;
         width: auto;
-        margin: 0;
+        background-image: none;
+        margin: 0 2em 0 2em;
     }
 
  .espaco {
@@ -183,6 +183,18 @@ body {
  .alinhamento {
     display: flex;
     align-content: space-between;
+ }
+
+ .rodape__lista {
+    gap: 0;
+ }
+
+ .espacamento {
+    margin-top: 0.5em;
+ }
+
+ .rodape__logo{
+    padding: 3em 0 1em;
  }
 }
 
